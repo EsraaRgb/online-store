@@ -1,0 +1,35 @@
+
+h6::after {
+    content:"|";
+    animation-name:typing ;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+/* clothes  comfort */
+@keyframes typing{
+    0%   {content: "C|";}
+    5%   {content:  "CL|";}
+    10%   {content:  "CLO|";}
+    15%   {content: "CLOT|";}
+    20%   {content: "CLOTH|";}
+    25%   {content:  "CLOTHE|";}
+    30%  {content: "CLOTHES|";}
+    35%  {content: "CLOTHE|";}
+    40%  {content:  "CLOTH|";}
+    45%  {content: "CLOT|";}
+    50%  {content: "CLO|";}
+    55%  {content: "CL|";}
+    60%  {content: "C|";}
+    65%  {content:  "CO|";}
+    70%  {content: "COM|";}
+    75%  {content: "COMF|";}
+    80%  {content:  "COMFO|";}
+    85%  {content:  "COMFOR|";}
+    90%  {content: "COMFORT|";}
+    92%  {content: "COMFO|";}
+    95%  {content: "COMF|";}
+    97%  {content: "COM|";}
+    99%  {content: "CO|";}
+    100%  {content: "C|";}
+}
